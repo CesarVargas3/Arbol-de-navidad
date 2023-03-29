@@ -70,6 +70,7 @@ De nuestra indagación inicial, teniendo una discusión de equipo obtuvimos unos
 que consideramos en su momento que serían las definitivas. El resultado de ello fue:
 
 ### Requerimientos:
+
 * El kit debe de ser un medio didáctico para el aprendizaje de electrónica análoga.
 * Conceptos a enseñar:
    1. Circuito integrado analógico.
@@ -83,6 +84,7 @@ que consideramos en su momento que serían las definitivas. El resultado de ello
 * Debe contar con botón de encendido y apagado.
 
 ### Restricciones:
+
 * Implementación no debe contar con PCB.
 * El tamaño del kit.
 * Costo de producción establecido (100.000 COP)
