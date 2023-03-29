@@ -174,10 +174,53 @@ imagen
 
 ## **Desarrollo estético**
 
+Habiendo hecho el proceso de escoger el diseño más apto sobre el papel, seguía desarrollarlo para llevarlo a la realidad, para esto
+se delegaron a dos personas del equipo, una se encargó de desarrollar la base y otra fue la encargada de desarrollar el arbol, siendo
+del apartado estético estas dos partes.
 
+Para la base se considararon diferentes materiales como por ejemplo cartón pluma u otros materiales comúnmente utilizados en la 
+realización de maquetas de los estudiantes de arquitectura, llegamos a hablar con varios estudiantes de arquitectura para que nos 
+asesoraran un poco en la realización de la base, pero al momento de de buscar la ayuda de ellos todos nos hacían un nuevo diseño
+argumentando que no sería resistente el que estábamos haciendo, pero los diseños propuestos se alejaban de lo que requeríamos, por lo
+que desidimos dejar ese asesoramiento, pues el efoque que ellos de daban era muy acorde a su carrera pero no a nuestros requerimientos.
 
+Finalmenta para la base se propuso imprimirla en 3D, lo cual nos llamó la atención debido que al ser impresa en un material sintético
+muy probablemente fuera resistente y se ajustaría a nuestros requerimientos, pero nos surgío otra duda, no sabíamos cuanto nos podría
+llegar a costar y si podríamos hacerlo sin violar el requerimeiento del valor unitario, por lo que el siguiente paso en nuestra Check
+List fue cotizar, para ello nos pedían un archivo con un modelo 3D digital, para poder realizar la simulación de costos.
+
+imagen
+
+El diseño se hizo considerando las dimensiones de la caja y el acople con la pieza del árbol. Una vez realizada la simulación de costos
+vimos que el precio era perfectamente costeable, por lo que implementamos la base imprimiendolaen un material sintético. Como se nos
+indicó inicialmente el árbol sería sometido a una prueba de resistencia, que era una caidadesde aproximadamente 1 metro de altura, por
+lo que preeviendo esta situación, realizamos algunos refuerzos en un material que ayudara a absorber la energía del impacto, siendo 
+el fomi el material elegido.
+
+El desarrollo del arbol fue un poco más sencillo, pues este se ajustaría mecánicamente a la base. Consideramos distintos materiales 
+para la realización de este arbol, los mismos que los que consideramos en la base, incluso realizarlo con un material sintético, pero
+finalmente decidimos realizarlo en carton paja.
+
+imagen
 
 ## **Desarrollo electrónico**
+
+Realizando el planteamiento por etapas, se designaron distintas etapas para desarrollar a diferentes integrantes del equipo, en el
+desarrollo del temporizador fue calcular los valores necesarios para que el monostable durara de 30 segundos a 3 minutos, finalmente
+conseguimos que durara de 0 segundos a 3 minutos.
+
+El desarrollo del circuito sonoro y del de intermitencia fue un poco más complejo, en el caso del circuito de sonido tuvimos varios 
+inconvemientes para lograr que el sonido sonara claro, que se mantuviera estable y sin distorción durante los 3 minutos y que el integrado
+UM66T no se calentara, para ello realizamos dierentes pruebas, desde un divisor de tensión, la implementación de un diodo zener, entre otras,
+todas ellas conseguían una mejora a esta etapa, hasta que acoplamos las etapas y no nos presentó ningún problema de funcionamiento.
+
+El circuito intermitente para las luces, fue sencillo en si, pero inicialmente se nos presentó un problema de potencia, por lo que pusimos
+los diferentes LEDs en paralelo, posterior a esto el circuito no funcionó como debía, revisamos todo muchas veces sin encontrar un error 
+aparente, por lo que decidimos probar los componente, descubriendo que un capacitor estaba defectuoso, luego de reemplazarlo todo 
+funcionó correctamente.
+
+Imagen
+
 
 ## **Equipo**
 
