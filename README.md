@@ -211,13 +211,13 @@ conseguimos que durara de 0 segundos a 3 minutos.
 
 El desarrollo del circuito sonoro y del de intermitencia fue un poco más complejo, en el caso del circuito de sonido tuvimos varios 
 inconvemientes para lograr que el sonido sonara claro, que se mantuviera estable y sin distorción durante los 3 minutos y que el integrado
-UM66T no se calentara, para ello realizamos dierentes pruebas, desde un divisor de tensión, la implementación de un diodo zener, entre otras,
-todas ellas conseguían una mejora a esta etapa, hasta que acoplamos las etapas y no nos presentó ningún problema de funcionamiento.
+UM66T no se calentara. Finalmente no logramos conseguir un sonido claro, con buen volumen y estable en el tiempo.
 
 El circuito intermitente para las luces, fue sencillo en si, pero inicialmente se nos presentó un problema de potencia, por lo que pusimos
 los diferentes LEDs en paralelo, posterior a esto el circuito no funcionó como debía, revisamos todo muchas veces sin encontrar un error 
-aparente, por lo que decidimos probar los componente, descubriendo que un capacitor estaba defectuoso, luego de reemplazarlo todo 
-funcionó correctamente.
+aparente, usamos dos tiras que iban a tener un ciclo intermitente, una de esas tiras estaba compuestas solo con LEDs rojos y la otra con la 
+mitad verde y la otra mitad amarilla, esta ultima tira por alguna razón no funcionaba correctamente, analizamos y no encontramos un error aparente 
+pues solo encendía parcialmente la tira.
 
 Imagen
 
