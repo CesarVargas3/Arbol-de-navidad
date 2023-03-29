@@ -109,6 +109,12 @@ Imagen
 
 ## **Indagación electrónica**
 
+Una vez identificado cómo sería la forma estética y teniendo en cuenta los requerimientos de diseño establecidos, iniciamos a
+plantear el apartado electrónico del kit, el cual es de vital importancia para el éxito del proyecto, pues como objetivo principal
+se debe enseñar electrónica analógica con este kit didáctico, por lo que el planteamiento electrónico tiene que enfocarse en ello.
+
+
+
 ## **Desarrollo estético**
 
 ## **Planteamiento de etapas**
