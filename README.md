@@ -32,12 +32,33 @@ en el camino.
 El desarrollo de este proyecto está basado en un proceso de diseño, por lo que está seccionado por diferentes
 etapas para obtener el producto requerido.
 
+Es muy importante recalcar que todos los procesos que se tuvieron en el desarrollo fueron realizados en grupo,
+todas las decisiones importantes fueron tomadas en consenso con todos los participes en el desarrollo, pero por 
+razones de optimización de tiempo y de recursos en general, se empoderó a una persona de cada grupo para el desarrollo
+de partes específicas del kit.
+
 ## **Planteamiento del problema**
 
 Se nos propuso implementar un kit didáctico basado en un arbol de navidad, con el objetivo principal de 
 enseñar conceptos básicos de electrónica analógica, para ello fue necesario identificar los diferentes 
 requerimientos, pues estos fueron claves al momento de llevar a cabo las diferentes etapas de diseño,
 debido a que es muy fácil dejar la objetividad a un lado y cumplir con lo que el usuario necesita.
+
+Una vez conocido lo que se nos pedía desarrollar, fue de vital importancia encontrar los diferentes medios
+que nos ayudarían en todo este proceso de desarrollo, en el camino nos fuimos encontrando diferntes herramientas
+y metodologías para poder avanzar de mejor forma. En esta etapa inicial lo primero que vimos conveniente usar
+fue una lista de chequeo o "Check List".
+
+En un inicio nuestra Check List se veía a algo parecido a esto:
+
+  □ Conocer lo requisitos exactos del cliente.
+  □ Conocer las restricciones en el desarrollo.
+  □ Plantear objetivos claros.
+  □ Conceptos a enseñar.
+  □ Acordar y aprovar con el cliente.
+  
+La Check List nunca fue la misma por mucho tiempo, una vez completabamos lo que se encontraba la lista se 
+abrían nuevas tareas por cumplir, por lo que fue muy dinámico en ese sentido.
 
 ## **Indagación** 
 
