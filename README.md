@@ -47,9 +47,25 @@ El funcionamiento de las diferentes etapas planteadas en el proyecto 1 no fue el
 cumplía, pues el tiempo de funcionamiento determinado por el temporizador del 555 en configuración monoestable iba de 
 0 segundos a aproximadamente 3 minutos, cuando lo requerido era de 30 segundos a 3 minutos. 
 
-El sonido tampoco presentaba un funcionamiento limpio, pues el sonido no era muy fuerte, además de ello con el tiempo
+El sonido tampoco presentaba un funcionamiento limpio, pues el este no era muy fuerte, además de ello con el tiempo
 el sonido se distorsionaba y el integrado UM66T se calentaba y no era estable en el tiempo máximo de funcionamiento, por lo
-que hicimos diferentes pruebas 
+que hicimos diferentes pruebas, determinando que el problema principal era que le estaba llegando una sobre tensión a
+esta estapa y que esta era la razón principal de este comportamiento anormal, entonces para no modificar toda la alimentación 
+del circuito completo (todas las etapas acopladas), implementamos diferentes alternativas como el uso de un diodo zener, un
+regulador de tensión o un divisor de tensión para poder estabilizar el voltaje, finalmente lo que mejor nos dió resultado en
+las pruebas con la etapa aislada fue el uso combinado del diodo zener y el divisor de tensión.
+
+Al realizar el acople de etapas el sonido bajó considerablemente, aún con los arreglos realizados, lo que ocurrió fue que también 
+ajsutamos una resistencia en serie con el potenciómetro para garantizar los 30 segundos de funcionamiento mínimos requeridos, por
+lo que esto afectaba al voltaje que llegaba a la etapa de sonido, podiendo el circuiti funcionar sin los arreglos realizados.
+
+Conseguimos corregir el funcionamiento de las luces, para ello la tira que iba con LEDs amarillos y verdes la dejamos solo con amarillos
+es decir, se reemplazaron los verdes, pero con esta modificación solo encendían todos directamente, pero al conectarlos al circuito 
+oscilatorio no funcionaba de manera correctamente, emepezamos a indagar al respecto, descubriendo que uno de los capacitores estaba
+defectuoso, al reemplazarlo todo funcionó correctamente.
+
+Imagen
+
 
 
 
