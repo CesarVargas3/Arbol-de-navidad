@@ -29,6 +29,19 @@ en el camino.
 
 ## **Nuevos requerimientos**
 
+Para la realización del proyecto 2, se nos pidió agregar la activación por detección de movimiento utilizando un sensor 
+piroeléctrico. La piroelectricidad es un fenómeno físico en el que ciertos materiales generan una carga eléctrica cuando 
+experimentan un cambio en su temperatura. Esta carga eléctrica se produce como resultado de un desplazamiento en los 
+centros de carga eléctrica positiva y negativa dentro de la estructura cristalina del material.
+
+El efecto piroeléctrico se produce en algunos materiales que tienen una estructura cristalina asimétrica, lo que significa
+que tienen una distribución desigual de átomos en su estructura. Estos materiales pueden generar una carga eléctrica cuando
+se calientan o enfrían, y la magnitud y dirección de la carga eléctrica dependen de la dirección del cambio de temperatura.
+
+Para la implementación de este nuevo requerimeinto planteado, el profesor nos brindó el sensor PIR D203S con el cual
+deberíamos cumplir el nuevo requerimiento.
+
+
 ## **Mejoras**
 
 
