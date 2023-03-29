@@ -41,9 +41,15 @@ se calientan o enfrían, y la magnitud y dirección de la carga eléctrica depen
 Para la implementación de este nuevo requerimeinto planteado, el profesor nos brindó el sensor PIR D203S con el cual
 deberíamos cumplir el nuevo requerimiento.
 
-
 ## **Mejoras**
 
+El funcionamiento de las diferentes etapas planteadas en el proyecto 1 no fue el más óptimo, podemos decir que simplemente 
+cumplía, pues el tiempo de funcionamiento determinado por el temporizador del 555 en configuración monoestable iba de 
+0 segundos a aproximadamente 3 minutos, cuando lo requerido era de 30 segundos a 3 minutos. 
+
+El sonido tampoco presentaba un funcionamiento limpio, pues el sonido no era muy fuerte, además de ello con el tiempo
+el sonido se distorsionaba y el integrado UM66T se calentaba y no era estable en el tiempo máximo de funcionamiento, por lo
+que hicimos diferentes pruebas 
 
 
 
