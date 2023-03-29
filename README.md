@@ -14,7 +14,7 @@ Antes que nada, nos gustaría que sepas quienes estamos detrás de esto:
 
 Pertenecemos al programa de ingeniería electrónica de la universidad surcolombiana.
 
-## Información general
+## **Información general**
 
 Desarrollamos un kit de aprendizaje de electrónica analógica representado como un arbol navideño, siguiendo una 
 serie de pautas dadas, llevando a cabo un proceso de diseño para poder conseguir de mejor manera todo lo requerido.
