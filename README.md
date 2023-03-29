@@ -51,11 +51,11 @@ fue una lista de chequeo o "Check List".
 
 En un inicio nuestra Check List se veía a algo parecido a esto:
 
-  □ Conocer lo requisitos exactos del cliente.
-  □ Conocer las restricciones en el desarrollo.
-  □ Plantear objetivos claros.
-  □ Conceptos a enseñar.
-  □ Acordar y aprovar con el cliente.
+      □ Conocer lo requisitos exactos del cliente.
+      □ Conocer las restricciones en el desarrollo.
+      □ Plantear objetivos claros.
+      □ Conceptos a enseñar.
+      □ Acordar y aprovar con el cliente.
   
 La Check List nunca fue la misma por mucho tiempo, una vez completabamos lo que se encontraba la lista se 
 abrían nuevas tareas por cumplir, por lo que fue muy dinámico en ese sentido.
@@ -101,6 +101,10 @@ manuscrito firmado por él mismo.
 
 Imagen
 
+Aprendimos que el firmar lo acordado es de vital importancia, pues las palabras quedan en el aire y este se las
+lleva, por lo que al acordar algo es necesario dejar un registro escríto bien detallado con lo acordado, además este
+documento debe contar con la firma del cliente y de los desarrolladores, es decir de ambas partes, todo para
+evitar cambios en el proceso de desarrollo.
 
 ## **Prototipo baja resolución**
 
@@ -130,17 +134,48 @@ electrónicos los cuales serían montables y desmontables.
 
 Imagen
 
+Es importante aclarar que en el diseño escogido, los LEDs van montados en la pieza del arbol, es decir, van fijos y soldados
+por la cara posterior del arbol, siendo la única parte "electrónica" que se encuentra fija y que se consideró directamente en
+el diseño estético del arbol, debido a que el apartado electrónico se iba a desarrollar en una protoboard sin afectar directamente
+el apartado estético, solo se consideró el espacio donde iría esta protoboard en este apartado.
+
+Otro aspecto importante al momento de realizar la selección de diseño fue el tener en cuenta el requerimeiento de las medidas 
+con las que tenía que contar la caja en donde irían las partes del kit, por lo que se escogió el diseño que se podía ajustar al 
+tamaño de la caja y además de eso sin sacrificar resistencia pues el árbol será sometido a una prueba de resistencia.
+
 ## **Indagación electrónica**
 
 Una vez identificado cómo sería la forma estética y teniendo en cuenta los requerimientos de diseño establecidos, iniciamos a
 plantear el apartado electrónico del kit, el cual es de vital importancia para el éxito del proyecto, pues como objetivo principal
 se debe enseñar electrónica analógica con este kit didáctico, por lo que el planteamiento electrónico tiene que enfocarse en ello.
+Tuvimos diferentes ideas de implementación de este apartado, desde usar algún tipo de placa difetente al PCB o soldar los diferentes
+elementos haciendo que estos estuvieran fijos, pero la idea que más se ajustó a lo que requerimos fue usar una protoboard en donde 
+el usuario directamente montara el circuito y pudiera aprender de una forma más empírica.
 
+Antes de cualquier cosa la primera pregunta que nos hicimos fue cómo poder hacer que un circuito dure un tiempo encendido determinado
+y que se apagara después de un tiempo, planteamos diferentes integrados que nos podrían servir, pero al final analizamos las diferentes
+configuraciones del 555, determinando que la configuración monoestable era la que se ajustaba a lo que necesitabamos.
 
+Imagen
+
+Como se ha mencionado se delegaron diferentes personas del equipo al desarrollo de diferentes partes del kit, mientras se realizaba el
+desarrollo del temporizador, otra persona desarrolló el circuito que generaba el sonido utilizando el integrado propuesto por el profesor
+UM66T, y otra persona desarrolló el circuito de intermitencia de luces, mientras que otra pulía el apartado estético para un correcto acople
+del apartado estético y electrónico, todo esto en paralelo.
+
+### Planteamiento de etapas
+
+Teniendo el desarrollo individual de los circuitos que se iba a realizar, decidimos establecer diferentes etapas que al acoplarse se 
+tendría el funcionamiento esperado, este manejo por estapas nos permite seccionar el funcionamiento de todo el circuito, haciendo más 
+facil la comprensión parael usuario, también de esta forma los componentes electrónicos de cada etapa vendrán separados en diferentes 
+bolsitas para que el montaje también sea seccionado, haciendolo más sencillo para el usuario.
+
+imagen
 
 ## **Desarrollo estético**
 
-## **Planteamiento de etapas**
+
+
 
 ## **Desarrollo electrónico**
 
