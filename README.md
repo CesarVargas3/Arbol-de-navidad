@@ -27,7 +27,9 @@ Como estudiantes encargados del desarrollo, seguimos un proceso de diseño, el c
 poniendonos a prueba constantemente, debido a que teníamos que sortear las diferentes dificultades que se nos presentaban
 en el camino.
 
+## **Nuevos requerimientos**
 
+## **Mejoras**
 
 
 
