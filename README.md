@@ -1,4 +1,4 @@
-# **Arbol de navidad didactico (Proyecto 1)**
+# **Arbol de navidad didactico (Versión 1.0)**
 
 Hola!
 
