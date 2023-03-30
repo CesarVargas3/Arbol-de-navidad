@@ -66,7 +66,12 @@ defectuoso, al reemplazarlo todo funcionó correctamente.
 
 Imagen
 
+Lista de mejoras
 
+      □ Tiempo de funcionamiento de 30 seg a 3 min.
+      □ Sonido claro, limpio y estable.
+      □ Todos los LEDs encienden.
+      □ Correcta oscilación.
 
 
 ## **Equipo**
